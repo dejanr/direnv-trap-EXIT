@@ -13,15 +13,15 @@ trap called?
 ```
 
 
-When direnv is enabled:
+### Current Behavior:
+
+Given that direnv is enabled:
 
 ``` sh
 $ direnv allow
 ```
 
-### Current Behavior:
-
-Entering directory with direnv allowed, trap is invoked :
+When we enter directory, trap is invoked :
 
 ``` sh
 $ cd projects/direnv-trap-EXIT
